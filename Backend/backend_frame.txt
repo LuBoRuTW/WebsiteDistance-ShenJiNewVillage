@@ -5,7 +5,7 @@
 。審計新訊-ShenJiNews
 	。2021 ~ ???? 年
 		。1 ~ 12 月
-			。最新消息-NewLatest
+			。最新消息-new_latest
 				。index--索引
 				。create--創建
 					縮標-(抓 日期-date、標題-title)
@@ -22,14 +22,14 @@
 				。edit--編輯
 				。update--更新
 				。delete--刪除
-			。近期活動資訊-RecentActivityInformation
+			。近期活動資訊-recent_activity_information
 				。index--索引
 				。create--創建
 				。store--儲存
 				。edit--編輯
 				。update--更新
 				。delete--刪除
-			。活動花絮-ActivityTidbits
+			。活動花絮-activity_tidbits
 				。index--索引
 				。create--創建
 				。store--儲存
@@ -40,13 +40,13 @@
 ==========================================================
 
 。關於審計-AboutShenJi
-	。園區介紹-ParkIntroduction
+	。園區介紹-park_introduction
 		。Id (多)
 			。圖片-img
 			。標題-title
 			。內容-content
          =================================================
-	。園區地圖-ParkMap
+	。園區地圖-park_map
 		。Id (多)
 			。圖片-img
 			。標題-title
@@ -55,24 +55,21 @@
 			。電話-phone
 			。內容-content
          =================================================
-	。商家介紹-StoreIntroduction
-		。食物類-FoodCategory
-			。圖片-img
-			。標題-title
-			。類型-style
-			。連結-link
-			。電話-phone
-			。內容-content
-		。小物類-SmallThingsCategory
-			。圖片-img
-			。標題-title
-			。類型-style
-			。連結-link
-			。電話-phone
-			。內容-content
+	。商家介紹-store_introduction
+		。類型
+			。小物類-SmallThingsCategory
+			。食物類-FoodCategory
+		。圖片-img
+		。標題-title
+		。類型-style (店家販賣類型)
+		。連結-link
+		。電話-phone
+		。內容-content
+
+
          =================================================
 	。景點推薦-AttractionsRecommend
-		。卡片-Card
+		。卡片-card
 			。標題-title
 			。圖片-img
 			。內容-content
@@ -86,7 +83,7 @@
 ==========================================================
 
 。聯絡審計-ContactShenJi
-	。加入審計-JoinShenJi
+	。加入審計-join_shenji
 		。進駐店家-Stationed
 			。內容-content
 		。E-mail
@@ -96,7 +93,7 @@
 		。其它資訊-OtherInformation
 			。內容-content
 
-	。顧客意見-CustomeRopinion
+	。顧客意見-custome_ropinion
 		。顧客名稱-CustomerName
 			。內容-content
 		。E-mail
